@@ -1,0 +1,17 @@
+button {
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:active:nth-child(1) {
+  background-color: rgb(10, 99, 10);
+  color: black;
+}
+button:active:nth-child(2) {
+  background-color: rgb(207, 188, 16);
+  color: black;
+}
+button:active:nth-child(3) {
+  background-color: rgb(179, 34, 15);
+  color: black;
+}

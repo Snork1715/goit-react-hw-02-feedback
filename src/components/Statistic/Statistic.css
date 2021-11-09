@@ -1,0 +1,32 @@
+.feedback-statistica {
+  display: flex;
+  justify-content: center;
+}
+
+.statistica_items {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.statistica_good {
+  color: green;
+}
+.statistica_neutral {
+  color: rgb(146, 146, 0);
+}
+.statistica_bad {
+  color: red;
+}
+.statistica_total::before {
+  content: " ";
+  border-top: 1px solid #000;
+  width: 100px;
+  margin-bottom: 5px;
+}
+.statistica_total {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

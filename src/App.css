@@ -1,0 +1,7 @@
+.feedback-wrapper {
+  display: flex;
+  max-width: 600px;
+  flex-direction: column;
+  margin: 0px auto;
+  text-align: center;
+}
