@@ -12,9 +12,9 @@ class App extends Component {
     bad: 0,
   };
 
-  onLeaveFeedback = (btnType) => {
+  onLeaveFeedback = (feedbackType) => {
     this.setState((prevState) => ({
-      [btnType]: prevState[btnType] + 1,
+      [feedbackType]: prevState[feedbackType] + 1,
     }));
   };
 
